@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12BE4111DB7D3AC00607698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BE4101DB7D3AC00607698 /* AppDelegate.m */; };
+		A12BE4141DB7D3AC00607698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BE4131DB7D3AC00607698 /* main.m */; };
+		A12BE4171DB7D3AC00607698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BE4161DB7D3AC00607698 /* ViewController.m */; };
+		A12BE4191DB7D3AC00607698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12BE4181DB7D3AC00607698 /* Assets.xcassets */; };
+		A12BE41C1DB7D3AC00607698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12BE41A1DB7D3AC00607698 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A12BE40C1DB7D3AC00607698 /* ScreenBrightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenBrightness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12BE40F1DB7D3AC00607698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A12BE4101DB7D3AC00607698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A12BE4131DB7D3AC00607698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A12BE4151DB7D3AC00607698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A12BE4161DB7D3AC00607698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A12BE4181DB7D3AC00607698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12BE41B1DB7D3AC00607698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12BE41D1DB7D3AC00607698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12BE4091DB7D3AC00607698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12BE4031DB7D3AC00607698 = {
+			isa = PBXGroup;
+			children = (
+				A12BE40E1DB7D3AC00607698 /* ScreenBrightness */,
+				A12BE40D1DB7D3AC00607698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12BE40D1DB7D3AC00607698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12BE40C1DB7D3AC00607698 /* ScreenBrightness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12BE40E1DB7D3AC00607698 /* ScreenBrightness */ = {
+			isa = PBXGroup;
+			children = (
+				A12BE40F1DB7D3AC00607698 /* AppDelegate.h */,
+				A12BE4101DB7D3AC00607698 /* AppDelegate.m */,
+				A12BE4151DB7D3AC00607698 /* ViewController.h */,
+				A12BE4161DB7D3AC00607698 /* ViewController.m */,
+				A12BE4181DB7D3AC00607698 /* Assets.xcassets */,
+				A12BE41A1DB7D3AC00607698 /* Main.storyboard */,
+				A12BE41D1DB7D3AC00607698 /* Info.plist */,
+				A12BE4121DB7D3AC00607698 /* Supporting Files */,
+			);
+			path = ScreenBrightness;
+			sourceTree = "<group>";
+		};
+		A12BE4121DB7D3AC00607698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12BE4131DB7D3AC00607698 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12BE40B1DB7D3AC00607698 /* ScreenBrightness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12BE4201DB7D3AC00607698 /* Build configuration list for PBXNativeTarget "ScreenBrightness" */;
+			buildPhases = (
+				A12BE4081DB7D3AC00607698 /* Sources */,
+				A12BE4091DB7D3AC00607698 /* Frameworks */,
+				A12BE40A1DB7D3AC00607698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenBrightness;
+			productName = ScreenBrightness;
+			productReference = A12BE40C1DB7D3AC00607698 /* ScreenBrightness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12BE4041DB7D3AC00607698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "杨培文";
+				TargetAttributes = {
+					A12BE40B1DB7D3AC00607698 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W26WBSVK66;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A12BE4071DB7D3AC00607698 /* Build configuration list for PBXProject "ScreenBrightness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12BE4031DB7D3AC00607698;
+			productRefGroup = A12BE40D1DB7D3AC00607698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12BE40B1DB7D3AC00607698 /* ScreenBrightness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12BE40A1DB7D3AC00607698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12BE4191DB7D3AC00607698 /* Assets.xcassets in Resources */,
+				A12BE41C1DB7D3AC00607698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12BE4081DB7D3AC00607698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12BE4171DB7D3AC00607698 /* ViewController.m in Sources */,
+				A12BE4141DB7D3AC00607698 /* main.m in Sources */,
+				A12BE4111DB7D3AC00607698 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A12BE41A1DB7D3AC00607698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12BE41B1DB7D3AC00607698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12BE41E1DB7D3AC00607698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A12BE41F1DB7D3AC00607698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A12BE4211DB7D3AC00607698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W26WBSVK66;
+				INFOPLIST_FILE = ScreenBrightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangpeiwen.ScreenBrightness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A12BE4221DB7D3AC00607698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W26WBSVK66;
+				INFOPLIST_FILE = ScreenBrightness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangpeiwen.ScreenBrightness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12BE4071DB7D3AC00607698 /* Build configuration list for PBXProject "ScreenBrightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12BE41E1DB7D3AC00607698 /* Debug */,
+				A12BE41F1DB7D3AC00607698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12BE4201DB7D3AC00607698 /* Build configuration list for PBXNativeTarget "ScreenBrightness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12BE4211DB7D3AC00607698 /* Debug */,
+				A12BE4221DB7D3AC00607698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12BE4041DB7D3AC00607698 /* Project object */;
+}
