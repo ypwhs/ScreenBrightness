@@ -12,6 +12,8 @@
 		A12BE4171DB7D3AC00607698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BE4161DB7D3AC00607698 /* ViewController.m */; };
 		A12BE4191DB7D3AC00607698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12BE4181DB7D3AC00607698 /* Assets.xcassets */; };
 		A12BE41C1DB7D3AC00607698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12BE41A1DB7D3AC00607698 /* Main.storyboard */; };
+		A12BE4281DB8850100607698 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BE4271DB8850100607698 /* WindowController.m */; };
+		A12BE42A1DB8DF3500607698 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A12BE4291DB8DF3500607698 /* Icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		A12BE4181DB7D3AC00607698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12BE41B1DB7D3AC00607698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12BE41D1DB7D3AC00607698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12BE4231DB7D44300607698 /* ScreenBrightness-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenBrightness-Bridging-Header.h"; sourceTree = "<group>"; };
+		A12BE4261DB8850100607698 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		A12BE4271DB8850100607698 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		A12BE4291DB8DF3500607698 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,14 @@
 				A12BE4101DB7D3AC00607698 /* AppDelegate.m */,
 				A12BE4151DB7D3AC00607698 /* ViewController.h */,
 				A12BE4161DB7D3AC00607698 /* ViewController.m */,
+				A12BE4261DB8850100607698 /* WindowController.h */,
+				A12BE4271DB8850100607698 /* WindowController.m */,
+				A12BE4291DB8DF3500607698 /* Icon.icns */,
 				A12BE4181DB7D3AC00607698 /* Assets.xcassets */,
 				A12BE41A1DB7D3AC00607698 /* Main.storyboard */,
 				A12BE41D1DB7D3AC00607698 /* Info.plist */,
 				A12BE4121DB7D3AC00607698 /* Supporting Files */,
+				A12BE4231DB7D44300607698 /* ScreenBrightness-Bridging-Header.h */,
 			);
 			path = ScreenBrightness;
 			sourceTree = "<group>";
@@ -108,6 +118,7 @@
 					A12BE40B1DB7D3AC00607698 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = W26WBSVK66;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12BE42A1DB8DF3500607698 /* Icon.icns in Resources */,
 				A12BE4191DB7D3AC00607698 /* Assets.xcassets in Resources */,
 				A12BE41C1DB7D3AC00607698 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12BE4171DB7D3AC00607698 /* ViewController.m in Sources */,
+				A12BE4281DB8850100607698 /* WindowController.m in Sources */,
 				A12BE4141DB7D3AC00607698 /* main.m in Sources */,
 				A12BE4111DB7D3AC00607698 /* AppDelegate.m in Sources */,
 			);
@@ -258,12 +271,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W26WBSVK66;
 				INFOPLIST_FILE = ScreenBrightness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangpeiwen.ScreenBrightness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenBrightness/ScreenBrightness-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -271,12 +288,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W26WBSVK66;
 				INFOPLIST_FILE = ScreenBrightness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangpeiwen.ScreenBrightness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenBrightness/ScreenBrightness-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -299,6 +319,7 @@
 				A12BE4221DB7D3AC00607698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
